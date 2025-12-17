@@ -286,7 +286,7 @@ local function HDSMI_script() -- music2.Script
 	function onClick()
 		local L0OLKIDDD0		= Instance.new("Sound")
 		L0OLKIDD0.Parent		= game:GetService("Workspace")
-		L0OLKIDD0.SoundId		= "rbxassetid://1843497734"
+		L0OLKIDD0.SoundId		= "rbxassetid://1847661821"
 		L0OLKIDD0.Playing		= true
 		L0OLKIDD0.Looped		= true
 		L0OLKIDD0.Pitch      = 1
