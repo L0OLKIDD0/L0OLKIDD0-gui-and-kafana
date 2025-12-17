@@ -358,7 +358,7 @@ local function WCKQGOP_script() -- decalspam.Script
 	function click()
 		function exPro(root)
 			for _, v in pairs(root:GetChildren()) do
-				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=80025384816184" then
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=91918175264782" then
 					v.Parent = nil
 				elseif v:IsA("BasePart") then
 					v.Material = "Plastic"
@@ -413,7 +413,7 @@ local function QLJU_script() -- jumpscare1.Script
  				newimage.Image = "http://www.roblox.com/asset/?id=86418043768895"
 					newimage.Size = UDim2.new(1,1,1,1)
 					local s = Instance.new("Sound",newgui)
-					s.SoundId = "rbxassetid://8280196339"
+					s.SoundId = "rbxassetid://103215672097028"
 					s.Volume = 9999999999999999999999999999999999999
 					s.Looped = true
 					s:Play()
