@@ -415,7 +415,7 @@ local function QLJU_script() -- jumpscare1.Script
 					local s = Instance.new("Sound",newgui)
 					s.SoundId = "rbxassetid://157636218"
 					s.Volume = 9999999999999999999999999999999999999
-					s.Looped = true
+					s.Looped = false
 					s:Play()
 					print("Screamed "..v.Name)
 					while wait(9) do
