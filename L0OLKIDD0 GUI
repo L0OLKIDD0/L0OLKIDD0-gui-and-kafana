@@ -289,7 +289,7 @@ local function HDSMI_script() -- music2.Script
 		L0OLKIDD0.SoundId		= "rbxassetid://97857912230742"
 		L0OLKIDD0.Playing		= true
 		L0OLKIDD0.Looped		= true
-		L0OLKIDD0.Pitch      = 0.2
+		L0OLKIDD0.Pitch      = 0.1
 		L0OLKIDD0.Volume		= 10
 	
 	end
