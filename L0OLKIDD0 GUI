@@ -60,7 +60,7 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(0.0468465462, 0, 0.0581395365, 0)
 TextLabel.Size = UDim2.new(0, 200, 0, 30)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "L0OLKIDDD0 gui "
+TextLabel.Text = "L0OLKIDDD0 gui v2 "
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 33.000
 TextLabel.TextWrapped = true
@@ -268,12 +268,12 @@ local function HDTLA_script() -- skybox.Script
 		s = Instance.new("Sky")
 		s.Name = "Sky"
 		s.Parent = game.Lighting
-		s.SkyboxBk = "http://www.roblox.com/asset/?id=91918175264782"
-		s.SkyboxDn = "http://www.roblox.com/asset/?id=91918175264782"
-		s.SkyboxFt = "http://www.roblox.com/asset/?id=91918175264782"
-		s.SkyboxLf = "http://www.roblox.com/asset/?id=91918175264782"
-		s.SkyboxRt = "http://www.roblox.com/asset/?id=91918175264782"
-		s.SkyboxUp = "http://www.roblox.com/asset/?id=91918175264782"
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=82259841519917"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=82259841519917"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=82259841519917"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=82259841519917"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=82259841519917"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=82259841519917"
 		game.Lighting.TimeOfDay = 12
 	end
 	
@@ -305,7 +305,7 @@ local function HNSKCE_script() -- particlesspam.Script
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=91918175264782"
+			emit.Texture = "http://www.roblox.com/asset/?id=82259841519917"
 			emit.VelocitySpread = 10000000000
 		end
 	end)
@@ -358,7 +358,7 @@ local function WCKQGOP_script() -- decalspam.Script
 	function click()
 		function exPro(root)
 			for _, v in pairs(root:GetChildren()) do
-				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=91918175264782" then
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=82259841519917" then
 					v.Parent = nil
 				elseif v:IsA("BasePart") then
 					v.Material = "Plastic"
@@ -369,12 +369,12 @@ local function WCKQGOP_script() -- decalspam.Script
 					local Four = Instance.new("Decal", v)
 					local Five = Instance.new("Decal", v)
 					local Six = Instance.new("Decal", v)
-					One.Texture = "http://www.roblox.com/asset/?id=91918175264782"
-					Two.Texture = "http://www.roblox.com/asset/?id=91918175264782"
-					Three.Texture = "http://www.roblox.com/asset/?id=91918175264782"
-					Four.Texture = "http://www.roblox.com/asset/?id=91918175264782"
-					Five.Texture = "http://www.roblox.com/asset/?id=91918175264782"
-					Six.Texture = "http://www.roblox.com/asset/?id=91918175264782"
+					One.Texture = "http://www.roblox.com/asset/?id=82259841519917"
+					Two.Texture = "http://www.roblox.com/asset/?id=82259841519917"
+					Three.Texture = "http://www.roblox.com/asset/?id=82259841519917"
+					Four.Texture = "http://www.roblox.com/asset/?id=82259841519917"
+					Five.Texture = "http://www.roblox.com/asset/?id=82259841519917"
+					Six.Texture = "http://www.roblox.com/asset/?id=82259841519917"
 					One.Face = "Front"
 					Two.Face = "Back"
 					Three.Face = "Right"
