@@ -416,7 +416,6 @@ local function QLJU_script() -- jumpscare1.Script
 					s.SoundId = "rbxassetid://11984351"
 					s.Volume = 9999999999999999999999999999999999999
 					s.Looped = false
-					s.pitch = 0.5
 					s:Play()
 					print("Screamed "..v.Name)
 					while wait(9) do
