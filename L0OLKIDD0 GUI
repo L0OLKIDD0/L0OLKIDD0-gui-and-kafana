@@ -413,7 +413,7 @@ local function QLJU_script() -- jumpscare1.Script
  				newimage.Image = "http://www.roblox.com/asset/?id=117589380737322"
 					newimage.Size = UDim2.new(1,1,1,1)
 					local s = Instance.new("Sound",newgui)
-					s.SoundId = "rbxassetid://78692849637332"
+					s.SoundId = "rbxassetid://76607683777055"
 					s.Volume = 9999999999999999999999999999999999999
 					s.Looped = false
 					s:Play()
